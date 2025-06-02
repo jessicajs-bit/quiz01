@@ -1,11 +1,20 @@
-body {
+* {
   font-family: Arial, sans-serif;
   background: #f0f0f0;
   margin: 0;
-  padding: 20px;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-style > body {
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  font-family: sans-serif;
+}
+body style > body {
   font-family: Arial, sans-serif;
   padding: 2rem;
   background: #f8f8f8;
