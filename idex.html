@@ -1,199 +1,211 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
   <head>
-    
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="mobile-web-app-capable" content="yes">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
 
-    
     <title>Quiz com Form</title>
     <link rel="stylesheet" href="estilo.style.css" />
   </head>
   <body>
-   <header class="site-header">
-  <div class="container">
-    <div class="logo">QuizMaster</div>
-    <button class="menu-toggle" id="menuToggle">☰</button>
-    <nav class="nav" id="navMenu">
-      <a href="#home">Início</a>
-      <a href="#quiz">Quiz</a>
-      <a href="#contato">Contato</a>
-      <button id="toggleMode">🌙</button>
-    </nav>
-  </div>
-</header>
+    <header class="site-header">
+      <div class="container">
+        <div class="logo">QuizMaster</div>
+        <button class="menu-toggle" id="menuToggle">☰</button>
+        <nav class="nav" id="navMenu">
+          <a href="#home">Início</a>
+          <a href="#quiz">Quiz</a>
+          <a href="#contato">Contato</a>
+          <button id="toggleMode">🌙</button>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <form id="quizForm">
+        <fieldset>
+          <legend>1. O que é um algoritmo?</legend>
+          <label
+            ><input
+              type="radio"
+              name="q1"
+              value="Um tipo de linguagem de programação"
+            />
+            Um tipo de linguagem de programação.</label
+          >
+          <label
+            ><input
+              type="radio"
+              name="q1"
+              value="Um conjunto de instruções para resolver um problema"
+            />
+            Um conjunto de instruções para resolver um problema.</label
+          >
+          <label
+            ><input type="radio" name="q1" value="É um estilo de código" /> É um
+            estilo de código.</label
+          >
+        </fieldset>
 
-   <main>
-    <form id="quizForm">
-      <fieldset>
-        <legend>1. Oque é um algoritimo?</legend>
-        <label
-          ><input
-            type="radio"
-            name="q1"
-            value="um tipo de
-          linguagem de programação"
-          />
-          um tipo de linguagem de programação.</label
-        >
-        <label
-          ><input
-            type="radio"
-            name="q1"
-            value="Um conjunto de
-          instruções para resolver um problema"
-          />Um conjunto de instruções para resolver um problema.</label
-        >
-        <label
-          ><input
-            type="radio"
-            name="q1"
-            value="É um estilo de
-          codico"
-          />
-          É um estilo de codico.</label
-        >
-      </fieldset>
+        <fieldset>
+          <legend>
+            2. Qual linguagem usamos para criar interações em sites?
+          </legend>
+          <label><input type="radio" name="q2" value="HTML" /> HTML</label>
+          <label><input type="radio" name="q2" value="CSS" /> CSS</label>
+          <label
+            ><input type="radio" name="q2" value="JavaScript" />
+            JavaScript</label
+          >
+          <label><input type="radio" name="q2" value="PHP" /> PHP</label>
+        </fieldset>
 
-      <fieldset>
-        <legend>
-          2. Qual linguagem usamos para criar interações em sites?
-        </legend>
-        <label><input type="radio" name="q2" value="HTML" /> HTML</label>
-        <label><input type="radio" name="q2" value="CSS" /> CSS</label>
-        <label
-          ><input type="radio" name="q2" value="JavaScript" /> JavaScript</label
-        >
-        <label><input type="radio" name="q2" value="PHP" /> PHP</label>
-      </fieldset>
+        <fieldset>
+          <legend>
+            3. Em uma linguagem de programação, a palavra-chave
+            <code>def</code> é usada para definir uma função.
+          </legend>
+          <label><input type="radio" name="q3" value="Python" /> Python</label>
+          <label><input type="radio" name="q3" value="Java" /> Java</label>
+          <label
+            ><input type="radio" name="q3" value="JavaScript" />
+            JavaScript</label
+          >
+          <label><input type="radio" name="q3" value="C++" /> C++</label>
+        </fieldset>
 
-      <fieldset>
-        <legend>
-          3. Em uma linguagem de programação a palavra-chave def é usada para
-          definir uma função
-        </legend>
-        <label><input type="radio" name="q3" value="Python" /> Python</label>
-        <label><input type="radio" name="q3" value="Java" /> Java</label>
-        <label
-          ><input type="radio" name="q3" value="JavaScript" /> JavaScript</label
-        >
-        <label><input type="radio" name="q3" value="C++" /> C++</label>
-      </fieldset>
+        <fieldset>
+          <legend>
+            4. O que é considerado uma competência fundamental na profissão de
+            um programador?
+          </legend>
+          <label
+            ><input type="radio" name="q4" value="Criatividade" />
+            Criatividade</label
+          >
+          <label
+            ><input type="radio" name="q4" value="Comunicação" />
+            Comunicação</label
+          >
+          <label
+            ><input type="radio" name="q4" value="Gestão de equipe" /> Gestão de
+            equipe</label
+          >
+          <label
+            ><input type="radio" name="q4" value="Visão sistêmica" /> Visão
+            sistêmica</label
+          >
+        </fieldset>
 
-      <fieldset>
-        <legend>
-          4. Oque é considerado uma competência fundamental na profissão de um
-          programador?
-        </legend>
-        <label
-          ><input type="radio" name="q2" value="Criatividade" />
-          Criatividade</label
-        >
-        <label
-          ><input type="radio" name="q2" value="Comunicação" />
-          Comunicação</label
-        >
-        <label
-          ><input type="radio" name="q2" value="Gestão de equipe" /> Gestão de
-          equipe</label
-        >
-        <label
-          ><input type="radio" name="q2" value="Visão sistêmica" /> Visão
-          sistêmica</label
-        >
-      </fieldset>
+        <fieldset>
+          <legend>5. O que significa "HTML"?</legend>
+          <label
+            ><input type="radio" name="q5" value="HyperText Markup Language" />
+            HyperText Markup Language</label
+          >
+          <label
+            ><input type="radio" name="q5" value="HighTest MarKup Language" />
+            HighTest MarKup Language</label
+          >
+          <label
+            ><input type="radio" name="q5" value="HyperText Machine Language" />
+            HyperText Machine Language</label
+          >
+          <label><input type="radio" name="q5" value="PHP" /> PHP</label>
+        </fieldset>
 
-      <fieldset>
-        <legend>5. Oque significa "Html"?</legend>
-        <label
-          ><input type="radio" name="q2" value="HyperText Markup Language" />
-          HyperText Markup Language</label
-        >
-        <label
-          ><input type="radio" name="q2" value="HighTest MarKup Language" />
-          HighTest MarKup Language</label
-        >
-        <label
-          ><input type="radio" name="q2" value="HyperText Machine Language" />
-          HyperText Machine Language</label
-        >
-        <label><input type="radio" name="q2" value="PHP" /> PHP</label>
-      </fieldset>
+        <fieldset>
+          <legend>6. Qual é a principal função do CSS?</legend>
+          <label
+            ><input
+              type="radio"
+              name="q6"
+              value="Criar scripts no lado do servidor"
+            />
+            Criar scripts no lado do servidor</label
+          >
+          <label
+            ><input
+              type="radio"
+              name="q6"
+              value="Estilização e formatação de páginas da Web"
+            />
+            Estilização e formatação de páginas da Web</label
+          >
+          <label
+            ><input
+              type="radio"
+              name="q6"
+              value="Conexão a um banco de dados"
+            />
+            Conexão a um banco de dados</label
+          >
+        </fieldset>
 
-      <fieldset>
-        <legend>6. Qual é a principal função do CSS?</legend>
-        <label
-          ><input
-            type="radio"
-            name="q2"
-            value="Criar scripts no lado do servidor"
-          />
-          Criar scripts no lado do servidor</label
-        >
-        <label
-          ><input
-            type="radio"
-            name="q2"
-            value="Estilização e formatação de páginas da Web"
-          />Estilização e formatação de páginas da Web
-        </label>
-        <label
-          ><input type="radio" name="q2" value="Conexão a um banco de dados" />Conexão a um banco de dados</label>
-      <fieldset> <br>
-        <legend><br>
-          7. O que é uma variável em programação?
-        </legend>
-        <label><input type="radio" name="q2" value="HTML" /> Uma função executada em segundo plano</label>
-        <label><input type="radio" name="q2" value="Um container para armazenar dados" /> 
-         Um container para armazenar dados</label>
-        <label
-          ><input type="radio" name="q2" value="JavaScript" />
-          Um tipo de loop</label
-        >
-        
-      </fieldset>
+        <fieldset>
+          <legend>7. O que é uma variável em programação?</legend>
+          <label
+            ><input
+              type="radio"
+              name="q7"
+              value="Uma função executada em segundo plano"
+            />
+            Uma função executada em segundo plano</label
+          >
+          <label
+            ><input
+              type="radio"
+              name="q7"
+              value="Um container para armazenar dados"
+            />
+            Um container para armazenar dados</label
+          >
+          <label
+            ><input type="radio" name="q7" value="Um tipo de loop" /> Um tipo de
+            loop</label
+          >
+        </fieldset>
 
-      <button type="submit">Enviar Respostas</button>
-      </main>
+        <button type="submit">Enviar</button>
+      </form>
 
-      
+      <p id="resultado"></p>
+    </main>
 
-      
-    </form>
-    
-    <div class="resultado" id="resultado"></div>
     <footer class="site-footer">
-  <div class="footer-container">
-    <p>&copy; 2025 QuizMaster. Todos os direitos reservados de Jéssica Soares.</p>
-    <div class="footer-links">
-      <a href="#privacidade">Política de Privacidade</a>
-      <a href="#contato">Contato</a>
-      <a href="https://instagram.com/seuPerfil" target="_blank">Instagram</a>
-    </div>
-  </div>
-</footer>
-
-
-    
+      <div class="footer-container">
+        <p>
+          &copy; 2025 QuizMaster. Todos os direitos reservados de Jéssica
+          Soares.
+        </p>
+        <div class="footer-links">
+          <a href="#privacidade">Política de Privacidade</a>
+          <a href="#contato">Contato</a>
+          <a href="https://instagram.com/seuPerfil" target="_blank"
+            >Instagram</a
+          >
+        </div>
+      </div>
+    </footer>
 
     <script>
-        
+      const menuToggle = document.getElementById("menuToggle");
+      const navMenu = document.getElementById("navMenu");
+      const toggleMode = document.getElementById("toggleMode");
 
-  const menuToggle = document.getElementById('menuToggle');
-  const navMenu = document.getElementById('navMenu');
-  const toggleMode = document.getElementById('toggleMode');
+      menuToggle.addEventListener("click", () => {
+        navMenu.classList.toggle("show");
+      });
 
-  menuToggle.addEventListener('click', () => {
-    navMenu.classList.toggle('show');
-  });
-
-  toggleMode.addEventListener('click', () => {
-    document.body.classList.toggle('dark-mode');
-    toggleMode.textContent = document.body.classList.contains('dark-mode') ? '☀️' : '🌙';
-  });
-
-
+      toggleMode.addEventListener("click", () => {
+        document.body.classList.toggle("dark-mode");
+        toggleMode.textContent = document.body.classList.contains("dark-mode")
+          ? "☀️"
+          : "🌙";
+      });
 
       document
         .getElementById("quizForm")
@@ -202,13 +214,13 @@
 
           // gabarito
           const respostasCorretas = {
-            q1: "Um conjunto de instruções para resolver um problema",
-            q2: "Html",
-            q3: "Python",
-            q4: "Visão sistêmica",
-            q5: " HyperText Markup Language",
-            q6: "Estilização e formatação de páginas da Web",
-            q7: "Um container para armazenar dados",
+            q1: ["Um conjunto de instruções para resolver um problema"],
+            q2: ["Html"],
+            q3: ["Python"],
+            q4: ["Visão sistêmica"],
+            q5: ["HyperText Markup Language"],
+            q6: ["Estilização e formatação de páginas da Web"],
+            q7: ["Um container para armazenar dados"],
           };
 
           let acertos = 0;
@@ -224,7 +236,7 @@
 
           document.getElementById(
             "resultado"
-          ).textContent = `Você acertou ${acertos} de 3 perguntas.`;
+          ).textContent = `Você acertou ${acertos} de 7 perguntas.`;
         });
     </script>
   </body>
